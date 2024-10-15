@@ -1,0 +1,1 @@
+celery --app tasks_all worker --queues transcript_queue --loglevel=DEBUG -n transcript_worker@%h -E

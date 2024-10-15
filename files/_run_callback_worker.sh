@@ -1,0 +1,1 @@
+celery --app tasks_all worker --queues callback_queue --loglevel=DEBUG -n callback_worker@%h -E

@@ -1,0 +1,1 @@
+celery --app tasks_all worker --queues summary_queue --loglevel=DEBUG -n summary_worker@%h -E
